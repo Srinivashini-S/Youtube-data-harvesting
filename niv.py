@@ -8,10 +8,6 @@ import pandas as pd
 api_key = "AIzaSyAYE9ry4xCiTRUpvZFUX0mhDNKG3njzgs"
 you_tube = build("youtube", "v3", developerKey=api_key)
 
-#channel_ids = ["UCQqmjKQBKQkRbWbSntYJX0Q"(Sabarinath Premlal),
-# "UC_UMiQzLI3uLjgVAe-tiPVQ"(Bhishma Academy),
-# "UC7v3GOqvoHY-r6YVSrEnyWw"(Aishu Maths),
-# "UCkQ8mZZiHe86ZRiadv10VAg" (Aarthi Maths)]
 
 client = pymongo.MongoClient("mongodb://nivashini:"
                            "Niva666@ac-zuphiew-shard-00-00.ghz2xmo.mongodb.net:27017,"
