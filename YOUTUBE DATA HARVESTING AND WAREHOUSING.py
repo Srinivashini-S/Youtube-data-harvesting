@@ -14,14 +14,14 @@ you_tube = build("youtube", "v3", developerKey=api_key)
 # "UCkQ8mZZiHe86ZRiadv10VAg" (Aarthi Maths)]
 
 client = pymongo.MongoClient("mongodb://nivashini:"
-                           "Niva66@ac-zuphiew-shard-00-00.ghz2xmo.mongodb.net:27017,"
+                           "Niva@ac-zuphiew-shard-00-00.ghz2xmo.mongodb.net:27017,"
                            "ac-zuphiew-shard-00-01.ghz2xmo.mongodb.net:27017,"
                            "ac-zuphiew-shard-00-02.ghz2xmo.mongodb.net:27017/?ssl=true&replicaSet="
                            "atlas-118sfr-shard-0&authSource=admin&retryWrites=true&w=majority")
 db = client["project_youtube"]  # creating database in MongoDB
 channel_list = db.list_collection_names()  # Gives all the collections available in db
 
-conn = psycopg2.connect(host="localhost", user="postgres", password= "Niva666", port = 5432, database = "youtube")
+conn = psycopg2.connect(host="localhost", user="postgres", password= "Niva", port = 5432, database = "youtube")
 cur = conn.cursor()
 
 
