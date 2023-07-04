@@ -5,7 +5,7 @@ import pymongo
 import psycopg2
 import pandas as pd
 
-api_key = "AIzaSyAYE9ry4xCiTRUpvZFUX0mhDNKG3njzgsI"
+api_key = "AIzaSyAYE9ry4xCiTRUpvZFUX0mhDNKG3njzgs"
 you_tube = build("youtube", "v3", developerKey=api_key)
 
 #channel_ids = ["UCQqmjKQBKQkRbWbSntYJX0Q"(Sabarinath Premlal),
@@ -21,7 +21,7 @@ client = pymongo.MongoClient("mongodb://nivashini:"
 db = client["project_youtube"]  # creating database in MongoDB
 channel_list = db.list_collection_names()  # Gives all the collections available in db
 
-conn = psycopg2.connect(host="localhost", user="postgres", password= "Niva666", port = 5432, database = "youtube")
+conn = psycopg2.connect(host="localhost", user="postgres", password= "Niva", port = 5432, database = "youtube")
 cur = conn.cursor()
 
 
