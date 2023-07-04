@@ -5,7 +5,7 @@ import pymongo
 import psycopg2
 import pandas as pd
 
-api_key = "AIzaSyAYE9ry4xCiTRUpvZFUX0mhDNKG3njzgsI"
+api_key = "AIzaSyAYE9ry4xCiTRUpvZFUX0mhDNKG3njzgs"
 you_tube = build("youtube", "v3", developerKey=api_key)
 
 #channel_ids = ["UCQqmjKQBKQkRbWbSntYJX0Q"(Sabarinath Premlal),
@@ -14,7 +14,7 @@ you_tube = build("youtube", "v3", developerKey=api_key)
 # "UCkQ8mZZiHe86ZRiadv10VAg" (Aarthi Maths)]
 
 client = pymongo.MongoClient("mongodb://nivashini:"
-                           "Niva666@ac-zuphiew-shard-00-00.ghz2xmo.mongodb.net:27017,"
+                           "Niva66@ac-zuphiew-shard-00-00.ghz2xmo.mongodb.net:27017,"
                            "ac-zuphiew-shard-00-01.ghz2xmo.mongodb.net:27017,"
                            "ac-zuphiew-shard-00-02.ghz2xmo.mongodb.net:27017/?ssl=true&replicaSet="
                            "atlas-118sfr-shard-0&authSource=admin&retryWrites=true&w=majority")
